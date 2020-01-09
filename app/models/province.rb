@@ -1,3 +1,3 @@
 class Province < ApplicationRecord
-  has_many :districs, dependent: :destroy
+  has_many :districts, dependent: :destroy
 end

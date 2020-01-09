@@ -11,6 +11,14 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery3
+//= require jquery_ujs
+//= require popper.min
+//= require bootstrap
+//= require ion.rangeSlider
+//= require bootstrap-sprockets
+//= require mdb
+//= require owl.carousel
 //= require activestorage
 //= require turbolinks
 //= require_tree .

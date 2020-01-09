@@ -12,3 +12,4 @@
 /config/master.key
 /config/credentials.yml.enc
 /config/database.yml
+/vendor/bundle/ruby/2.5.0/*

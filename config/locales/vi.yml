@@ -1,0 +1,11 @@
+vi:
+  views:
+    base_title: "TÌM KIẾM NHÀ TRỌ"
+    language: "LANGUAGE"
+    header:
+      login: "ĐĂNG NHẬP"
+      registration: "ĐĂNG KÝ"
+      create_post: "ĐĂNG TIN"
+      home: "TRANG CHỦ"
+      post: "TIN MỚI"
+      about: "ABOUT"

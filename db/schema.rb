@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2020_01_08_061638) do
 
   create_table "districts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
-    t.string "type"
+    t.string "district_type"
     t.integer "province_id"
   end
 
@@ -58,7 +58,7 @@ ActiveRecord::Schema.define(version: 2020_01_08_061638) do
 
   create_table "provinces", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
-    t.string "type"
+    t.string "province_type"
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -83,7 +83,7 @@ ActiveRecord::Schema.define(version: 2020_01_08_061638) do
 
   create_table "wards", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
-    t.string "type"
+    t.string "ward_type"
     t.integer "district_id"
   end
 

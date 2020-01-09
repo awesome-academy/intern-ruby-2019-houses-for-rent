@@ -1,0 +1,15 @@
+current directory: /home/tungpv/Desktop/Sun-asterisk/intern-ruby-2019-houses-for-rent/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+/home/tungpv/.rbenv/versions/2.5.1/bin/ruby -I /home/tungpv/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20200110-16407-o3p1ao.rb extconf.rb
+creating Makefile
+
+current directory: /home/tungpv/Desktop/Sun-asterisk/intern-ruby-2019-houses-for-rent/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/tungpv/Desktop/Sun-asterisk/intern-ruby-2019-houses-for-rent/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/tungpv/Desktop/Sun-asterisk/intern-ruby-2019-houses-for-rent/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20200110-16407-h5mxgh/skiptrace/internal
